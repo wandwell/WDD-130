@@ -21,6 +21,10 @@ img {
     border: 4px solid steelblue;
 }
 
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
 p {
     padding: 10px;
 }
@@ -28,4 +32,9 @@ p {
 footer {
     background-color: steelblue;
     color: white;
+}
+
+#active {
+    background-color: white;
+    color: steelblue;
 }
