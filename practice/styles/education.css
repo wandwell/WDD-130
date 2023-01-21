@@ -1,0 +1,42 @@
+body{
+    background-color: #fca6c9;
+}
+
+nav{
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+article{
+    font-family: sans-serif;
+}
+
+footer{
+    font-family: sans-serif;
+}
+
+.quote{
+    color: white
+}
+
+article.quote{
+    font-size: xx-large;
+}
+
+img{
+    width: 20%;
+}
+
+body{
+    width: 40%;
+    margin: 0, auto;
+    text-align: center;
+}
+
+
+
