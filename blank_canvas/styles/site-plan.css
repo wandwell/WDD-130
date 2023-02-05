@@ -35,7 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  color:#F7F5F3
+  background-color:#F7F5F3
 }
 img {
   display: block;
@@ -84,12 +84,15 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: black
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: white
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: black
 }
 .accent2{
   background-color: var(--accent2-color);
