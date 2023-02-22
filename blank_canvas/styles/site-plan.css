@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent1-color: #c3cdd5;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Alegreya Sans, arial, sans-serif;
-  --paragraph-font: Inconsolata, courier;
+  --heading-font: "Alegreya Sans", arial, sans-serif;
+  --paragraph-font: Inconsolata, courier, monospace;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black;  /* headlines on a white background */ 
