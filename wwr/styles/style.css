@@ -212,6 +212,125 @@ footer .social img{
     box-shadow: 5px 5px 10px #972B21;
 }
 
+/*begins the css for rates page*/
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    }
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/7;
+    z-index: -1;
+}
+
+#banner-img{
+    width: 100%;
+}
+
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 50px;
+    color:#1B1F60;
+    text-align: center;
+}
+
+.rates-title{
+    font-family: Marhey, georgia, serif;
+    margin-top: -50px;
+    white-space: pre-line;
+    font-size: 2em;
+}
+
+.button-box-rates{
+    text-align: center;
+}
+
+.rates-main{
+    margin: 10px 15px;
+    padding: 20px;
+}
+
+summary{
+    display:flex;
+    cursor:pointer;
+    padding: 20px;
+}
+
+.name{
+    width: 80%;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.price{
+    width: 20%;
+    text-align: right
+}
+
+.canyon-1-grid, .canyon-2-grid, .salmon-grid, .deso-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    gap: 20px;
+}
+
+.canyon-1-img, .salmon-img{
+    grid-column: 4/5;
+    width: 100%;
+    border: 10px solid #1b1f60;
+    box-shadow: 5px 5px 10px #972B21;
+}
+
+.canyon-2-img, .deso-img{
+    grid-column: 1/2;
+    width: 100%;
+    border: 10px solid #1b1f60;
+    box-shadow: 5px 5px 10px #972B21;
+}
+
+.canyon-1-details, .salmon-details{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.canyon-2-details, .deso-details{
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+details{
+    text-align: left;
+    
+}
+
+details[open]{
+    background-color: #972B21;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #1B1F60;
+
+}
+
+details[open] summary{
+    color: white;
+}
+
+details h4{
+    text-indent: 10%;
+    font-family: Marhey, georgia, serif;
+    color: #A8DADC;
+}
+
+details p{
+    text-indent: 15%;
+    color: white;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
