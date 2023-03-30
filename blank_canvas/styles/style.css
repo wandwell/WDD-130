@@ -320,7 +320,118 @@ body{
     text-align: center;
     font-size: 1.5em;
   }
+
+  /* resources pg styling begins here*/
+
+  #resource-grid{
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 400px repeat(4, 250px);
+    gap: 50px;
+    margin: 75px 50px;
+    justify-content: center;
+  }
+
+  #resource-grid h2{
+    font-family: "Alegreya Sans", arial, sans-serif;
+    font-size: 2em;
+    margin: 10px 50px;
+  }
   
+  #resource-grid p{
+    font-family: Inconsolata, courier, monospace;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #resource-banner-box{
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  .resource-banner{
+    object-fit: cover;
+    height: 400px;
+    object-position: 0 40%;
+    border: #F3E5CE solid 3px;
+  }
+
+  .resource-banner-txt{
+    position:absolute;
+    bottom:50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 30px;
+    border: 3px solid #F7F5F3;
+    background-color: #F3E5CE;
+    font-family:"Alegreya Sans", arial, sans-serif;
+    font-size: 3em;
+  }
+
+  .resource-banner-src :visited{
+    color: inherit;
+  }
+
+  .design-img-box{
+    grid-column: 3/4;
+    grid-row: 2/4;
+  }
+
+  .design-img{
+    object-fit: cover;
+    height: 100%;
+    border: #F3E5CE solid 3px;
+
+  }
+
+  .logo-builder{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    border:#C3CDD5 3px solid;
+    background-color: #F3E5CE;
+    margin-top: 25px;
+  }
+
+  .portfolio{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    border:#C3CDD5 3px solid;
+    background-color: #F3E5CE;
+    margin-bottom: 25px;
+  }
+
+  .tech-img-box{
+    grid-column: 1/2;
+    grid-row: 4/6;
+  }
+  
+  .tech-img{
+    height: 100%;
+    border: #F3E5CE solid 3px;
+    object-fit: cover;
+  }
+
+  .forum{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    border:#C3CDD5 3px solid;
+    background-color: #F3E5CE;
+    margin-top: 25px;
+  }
+
+  .support{
+    grid-column: 2/4;
+    grid-row: 5/6;
+    border:#C3CDD5 3px solid;
+    background-color: #F3E5CE;
+    margin-bottom: 25px;
+  }
+
+  .img-src{
+    position: relative;
+    bottom: 25px;
+  }
+
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
